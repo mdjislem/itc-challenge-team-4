@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PC Components Store</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="../style.css" />
+    <!-- google fonts -->
+    <!-- first font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- second font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- third font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="landing-page" class="shoping-page">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="../images/store-logo.png" alt="logo" />
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="parent">
+            <div class="carte">
+              <a href="#"
+                ><img src="../images/shopping-cart-outline.png" alt="carte"
+              /></a>
+            </div>
+            <div class="dark-mode">
+              <a href="#"
+                ><img src="../images/dark mode.png" alt="dark-mode"
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <div class="cart-container">
+      <div class="cart-header">
+        <div class="product-header">PRODUCT</div>
+        <div class="price-header">PRICE</div>
+        <div class="quantity-header">QTY</div>
+        <div class="unit-price-header">UNIT PRICE</div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product-section">
+          <button class="remove-btn" aria-label="Remove item">×</button>
+          <img
+            src="../images/razer-keyboard.jpg"
+            alt="Razen Keyboard"
+            class="product-image"
+          />
+          <span class="product-name">razen keyboard</span>
+        </div>
+
+        <div class="price-section">
+          <span class="price-label">PRICE</span>
+          <span class="price-value">$99.9</span>
+        </div>
+
+        <div class="quantity-section">
+          <span class="quantity-label">QTY</span>
+          <div class="quantity-controls">
+            <button
+              class="quantity-btn decrease"
+              aria-label="Decrease quantity"
+            >
+              −
+            </button>
+            <input
+              type="number"
+              value="1"
+              min="1"
+              class="quantity-input"
+              aria-label="Quantity"
+            />
+            <button
+              class="quantity-btn increase"
+              aria-label="Increase quantity"
+            >
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="unit-price-section">
+          <span class="unit-price-label">UNIT PRICE</span>
+          <span class="unit-price-value">$99.9</span>
+        </div>
+      </div>
+
+      <div class="cart-item">
+        <div class="product-section">
+          <button class="remove-btn" aria-label="Remove item">×</button>
+          <img
+            src="../images/razer-mouse.jpg"
+            alt="Rezen Mouse"
+            class="product-image"
+          />
+          <span class="product-name">rezen mouse</span>
+        </div>
+
+        <div class="price-section">
+          <span class="price-label">PRICE</span>
+          <span class="price-value">$79.9</span>
+        </div>
+
+        <div class="quantity-section">
+          <span class="quantity-label">QTY</span>
+          <div class="quantity-controls">
+            <button
+              class="quantity-btn decrease"
+              aria-label="Decrease quantity"
+            >
+              −
+            </button>
+            <input
+              type="number"
+              value="1"
+              min="1"
+              class="quantity-input"
+              aria-label="Quantity"
+            />
+            <button
+              class="quantity-btn increase"
+              aria-label="Increase quantity"
+            >
+              +
+            </button>
+          </div>
+        </div>
+
+        <div class="unit-price-section">
+          <span class="unit-price-label">UNIT PRICE</span>
+          <span class="unit-price-value">$79.9</span>
+        </div>
+      </div>
+
+      <div class="cart-summary">
+        <div class="coupon-section">
+          <div class="coupon-input">
+            <span>Coupon code</span>
+            <div class="coupon-field">
+              <input type="text" placeholder="Enter coupon" />
+              <button class="apply-coupon">
+                <img src="../images/Cupon-img.png" alt="Apply" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-summary">
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span class="amount">$</span>
+          </div>
+          <div class="summary-row">
+            <span>Shipping fee</span>
+            <span class="amount">$0</span>
+          </div>
+          <div class="summary-row">
+            <span>Coupon</span>
+            <span>No</span>
+          </div>
+          <div class="summary-row total">
+            <span>TOTAL</span>
+            <span class="total-amount">$</span>
+          </div>
+          <button class="checkout-btn">Check out</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+
+        <h2>Credit / Debit card</h2>
+
+        <div class="card-preview">
+          <div class="card-number">2626 2626 2626 2626</div>
+          <div class="card-details">
+            <div class="card-name">BOUKHARI ABDELAZIZ</div>
+            <div class="card-date">13/06</div>
+          </div>
+          <div class="card-logos">
+            <div class="logo-circle logo-red"></div>
+            <div class="logo-circle logo-yellow"></div>
+          </div>
+        </div>
+
+        <form class="payment-form">
+          <div class="form-group">
+            <label for="cardHolder">Name on card</label>
+            <input type="text" id="cardHolder" value="boukhari abdelaziz" />
+          </div>
+
+          <div class="form-group">
+            <label for="cardNumber">Card number</label>
+            <div class="card-number-input">
+              <input type="text" id="cardNumber" value="2626 2626 2626 2626" />
+              <div class="mastercard-logo"></div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group expiry-group">
+              <label for="expiryDate">Expiry date</label>
+              <input type="text" id="expiryDate" value="13/06" />
+            </div>
+            <div class="form-group cvv-group">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" value="262" />
+            </div>
+          </div>
+
+          <button type="button" class="use-card-btn">USE THIS CARD</button>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get references to elements
+        const checkoutBtn = document.querySelector(".checkout-btn");
+        const paymentModal = document.querySelector(".modal-overlay");
+        const closeModalBtn = document.querySelector(".close-modal");
+
+        // Show modal when checkout button is clicked
+        checkoutBtn.addEventListener("click", function () {
+          paymentModal.style.display = "flex";
+          document.body.style.overflow = "hidden"; // Prevent scrolling when modal is open
+        });
+
+        // Hide modal when close button is clicked
+        closeModalBtn.addEventListener("click", function () {
+          paymentModal.style.display = "none";
+          document.body.style.overflow = "auto"; // Enable scrolling again
+        });
+
+        // Hide modal when clicking outside of it
+        window.addEventListener("click", function (event) {
+          if (event.target === paymentModal) {
+            paymentModal.style.display = "none";
+            document.body.style.overflow = "auto"; // Enable scrolling again
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
