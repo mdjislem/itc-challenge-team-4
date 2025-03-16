@@ -24,46 +24,54 @@
 <body> 
     <section id="landing-page">
         <div class="container">
-            <nav>
+            <nav class="navbar">
                 <div class="logo">
-                    <img src="images/store-logo.png" alt="logo">
+                    <a href="index.html"><img src="images/store-logo.png" alt="logo"></a>
                 </div>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Contact</a></li>
+               
+                <ul class="nav-menu" >
+                    <li class="nav-item"><a href="#landing-page" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#secondary-page" class="nav-link">Categories</a></li>
+                    <li class="nav-item"><a href="#featured-product" class="nav-link">Featured Products</a></li>
                 </ul>
                 <div class="parent">
                     <div class="carte">
-                        <a href="#"><img src="images/shopping-cart-outline.png" alt="carte"></a>
+                        <a href="shoping.html"><img src="images/shopping-cart-outline.png" alt="carte" ></a>
                     </div>
+                    
                     <div class="dark-mode">
                         <a href="#"><img src="images/dark mode.png" alt="dark-mode"></a>
                     </div>
+                    <div class="hamburger">
+                        <img src="images/Menu.png" alt="menu" class="menu-icon">
+                        <img src="images/close-menu.png" alt="close" class="close-icon">
+                    </div>
                 </div>
-
-            </nav>
+            </nav>     
+        </div>
+         
+      
         </div>
         <div class="home">
+            
             <div class="container">
                 <div class="content">
-                    <p id="title">Unlock Your Potential, Techniques for<br>
+                    <p id="title">Unlock Your Potential, Techniques for
                         Improving Your Gaming Performance</p>
-
-                    <p id="text">From mastering advanced gameplay mechanics to sharpening reflexes and<br>
-                        decision-making abilities, this book offers invaluable insights and<br>
+                    <p id="text">From mastering advanced gameplay mechanics to sharpening reflexes and
+                        decision-making abilities, this book offers invaluable insights and
                         strategies for gamers of all levels.</p>
                     <div class="button">
-                        <button><a href="">
+                        <button><a href="#secondary-page">
                                 <p>Shop Now</p>
                             </a></button>
                     </div>
                 </div>
+                   
                 <div class="image">
                     <img src="images/game 1.png" alt="controller">
                 </div>
             </div>
-        </div>
         </div>
 
     </section>
@@ -77,7 +85,7 @@
                     <img id="mouse" src="images/mouse.png" alt="mouse-category">
                     <h1>Gaming
                         Mouse</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="mouses-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -85,7 +93,7 @@
                     <img id="keyboard" src="images/keyboard.png" alt="keyboards-category">
                     <h1>Gaming
                         Keyboard</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="keyboards-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -93,7 +101,7 @@
                     <img id="casque" src="images/casque.png" alt="headset-category">
                     <h1>Gaming
                         Headset</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="headset-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -101,7 +109,7 @@
                     <img id="controller" src="images/ps5.png" alt="controllers-category">
                     <h1>Gaming
                         Controller</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="controllers-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -109,7 +117,7 @@
                     <img id="chair" src="images/chair.png" alt="chair-category">
                     <h1>Gaming
                         Chair</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="chair-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -117,7 +125,7 @@
                     <img id="monitor" src="images/monitor.png" alt="monitors-category">
                     <h1>Gaming
                         Monitor</h1>
-                    <div class="buy"><a href="">
+                    <div class="buy"><a href="monitor-page.html">
                             <p>SHOP NOW</p>
                         </a></div>
                 </div>
@@ -152,7 +160,7 @@
                         <img src="images/Star.png" alt="">
                     </div>
                     <div class="carte-button">
-                        <button><a href="">
+                        <button><a>
                                 <p>ADD TO CART</p>
                             </a></button>
                     </div>
@@ -180,7 +188,7 @@
                         <img src="images/Star.png" alt="">
                     </div>
                     <div class="carte-button">
-                        <button><a href="">
+                        <button><a>
                                 <p>ADD TO CART</p>
                             </a></button>
                     </div>
@@ -208,7 +216,7 @@
                         <img src="images/Star.png" alt="">
                     </div>
                     <div class="carte-button">
-                        <button><a href="">
+                        <button><a>
                                 <p>ADD TO CART</p>
                             </a></button>
                     </div>
@@ -236,7 +244,7 @@
                         <img src="images/Star.png" alt="">
                     </div>
                     <div class="carte-button">
-                        <button><a href="">
+                        <button><a>
                                 <p>ADD TO CART</p>
                             </a></button>
                     </div>
@@ -246,44 +254,75 @@
     </section>
     <section id="offers">
         <div class="container">
-            <div class="service">
-                <div class="image">
-                    <img src="images/shipping.png" alt="">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/shipping.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Free shipping</h1>
+                        <p>Free Shiping to Make Your
+                            Shopping Experience Seamless</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h1>Free shipping</h1>
-                    <p>Free Shiping to Make Your
-                        Shopping Experience Seamless</p>
+                <div class="service">
+                    <div class="image">
+                        <img src="images/return.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Free shipping</h1>
+                        <p>Free Shiping to Make Your
+                            Shopping Experience Seamless</p>
+                    </div>
                 </div>
-            </div>
-            <div class="service">
-                <div class="image">
-                    <img src="images/return.png" alt="">
+                <div class="service">
+                    <div class="image">
+                        <img src="images/support.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h1>Free shipping</h1>
+                        <p>Free Shiping to Make Your
+                            Shopping Experience Seamless</p>
+                    </div>
                 </div>
-                <div class="text">
-                    <h1>Free shipping</h1>
-                    <p>Free Shiping to Make Your
-                        Shopping Experience Seamless</p>
-                </div>
-            </div>
-            <div class="service">
-                <div class="image">
-                    <img src="images/support.png" alt="">
-                </div>
-                <div class="text">
-                    <h1>Free shipping</h1>
-                    <p>Free Shiping to Make Your
-                        Shopping Experience Seamless</p>
-                </div>
-            </div>
+           
+            
 
         </div>
 
     </section>
 
     <footer>
-        <p>&copy; </p>
+        <div class="container">
+            <div class="content">
+                <h1>SURVIVE</h1>
+                <a href=""><p>Payment solution</p></a>
+                <a href=""><p>Features</p></a>
+            </div>
+            <div class="content">
+                <h1>STRUCTURES</h1>
+                <a href=""><p>Integration</p></a>
+                <a href=""><p>API</p></a>
+            </div>
+            <div class="content">
+                <h1>HELP</h1>
+                <a href=""><p>Customer Support</p></a>
+                <a href=""><p>Contact</p></a>
+            </div>
+            <div class="content">
+                <h1>SOCIAL</h1>
+                <a href=""><p>LinkedIn</p></a>
+                <a href=""><p>Facebook</p></a>
+                <a href=""><p>Telegram</p></a>
+            </div>
+            <div class="content">
+                <h1>LEGAL</h1>
+                <a href=""><p>Terms of Use</p></a>
+                <a href=""><p>privacy Policy</p></a>
+                <a href=""><p>Legal Notice</p></a>
+            </div>
+            
+        </div>
     </footer>
 </body>
-
+<script src="script.js"></script>
 </html>
